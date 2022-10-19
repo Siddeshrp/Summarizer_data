@@ -15,10 +15,11 @@ source_datasets:
 - original
 task_categories:
 - summarization
-task_ids:
-- summarization-other-conversations-summarization
+task_ids: []
 paperswithcode_id: samsum-corpus
 pretty_name: SAMSum Corpus
+tags:
+- conversations-summarization
 ---
 
 # Dataset Card for SAMSum Corpus
