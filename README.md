@@ -30,12 +30,12 @@ dataset_info:
     dtype: string
   config_name: samsum
   splits:
-  - name: test
-    num_bytes: 534492
-    num_examples: 819
   - name: train
     num_bytes: 9479141
     num_examples: 14732
+  - name: test
+    num_bytes: 534492
+    num_examples: 819
   - name: validation
     num_bytes: 516431
     num_examples: 818
