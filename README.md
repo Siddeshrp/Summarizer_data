@@ -41,6 +41,15 @@ dataset_info:
     num_examples: 818
   download_size: 2944100
   dataset_size: 10530064
+train-eval-index:
+- config: samsum
+  task: summarization
+  task_id: summarization
+  splits:
+    eval_split: test
+  col_mapping:
+    dialogue: text
+    summary: target
 ---
 
 # Dataset Card for SAMSum Corpus
